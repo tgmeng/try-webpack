@@ -1,0 +1,16 @@
+{
+  "name": "try-webpack",
+  "private": true,
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "build": "lerna run --parallel build"
+  },
+  "workspaces": {
+    "packages": [
+      "./*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "^3.22.0"
+  }
+}
