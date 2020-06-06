@@ -1,7 +1,7 @@
 export function hello() {
-  console.log('hello');
+  return 'hello';
 }
 
 export default function test() {
-  console.log('test');
+  return 'test';
 }

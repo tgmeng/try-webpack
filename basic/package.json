@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "webpack -c webpack.config.js"
+    "build": "rm -rf dist && webpack -c webpack.config.js"
   },
   "dependencies": {},
   "devDependencies": {
