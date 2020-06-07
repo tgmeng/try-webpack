@@ -2,6 +2,10 @@
 //   return 'hi';
 // }
 
+import { hello } from './a';
+
+// const { hello } = require('./a');
+
 exports.hi = () => {
   return 'hi';
 };

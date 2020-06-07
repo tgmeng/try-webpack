@@ -1,0 +1,17 @@
+{
+  "name": "@try-webpack/federation-remote",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "rm -rf dist && webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "webpack": "5.0.0-beta.16",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@try-webpack/shared": "0.1.0"
+  }
+}
